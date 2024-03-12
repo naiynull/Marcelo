@@ -1,3 +1,17 @@
 h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav a{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+div{
+    font-family: 'Times New Roman', Times, serif;
+}
+.text-dark{
+    color:aliceblue;
 }

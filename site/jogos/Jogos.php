@@ -4,23 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
     <script src="bootstrap/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="estilo.css">
-    <title>Floricultura</title>
+    <link rel="stylesheet" href="../../estilo.css">
+    <title>Games</title>
 </head>
 
 <header>
-    <nav class="nav bg-success font-weight-bold justify-content-center">
-        <a href="index.html" class="nav-link text-dark">Início</a>
+    <nav class="bg-danger">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" href="../index.html">Inicio
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"> </a>
+            </li>
+
+        </ul>
     </nav>
 </header>
-
 <body>
     <div class="container py-4">
-        <h1 class="text-center">FLORICULTURA</h1>
-        <h5 class="text-center">venha adquirir sua planta</h5>
+        <h1 class="text-center">Games</h1>
+        <h5 class="text-center">Informações </h5>
     </div>
+
 
     <div class="container">
         <!-- <table class="table table-striped">
@@ -41,9 +50,7 @@
                 <?php endforeach; ?>
             </tbody>
         </table>-->
-    </div>
-
-    <div class="container-fluid fixed-bottom bg-success">
+        <div class="container-fluid fixed-bottom bg-danger">
         <div class="card-footer text-center">
             <p class="text-dark font-weight-bold">CEFET-MG Varginha 2024</p>
         </div>
